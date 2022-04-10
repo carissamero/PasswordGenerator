@@ -12,10 +12,13 @@
             <div class="box">
             <h2>Password Generator</h2>
             <form method="post">
-            <label for="please-wait">! Generating Here !</label>
+            <input type="text" name="" placeholder="Create Password" readonly>
+                </div>
             </div>
-        <div id="msg"></div>
-        <button id="Generate">Generate</button>
+        <table>
+            <th><div id="button" class="button1" onclick="genPassword()">Generate</div></th>
+            <th><a id="button" class="button2" onclick="copyPassword()">Copy</a></th>
+        </table>
             </form>
         </div>
         <script src="./script.js"></script>

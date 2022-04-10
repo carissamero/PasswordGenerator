@@ -8,35 +8,27 @@ body {
     background-color: lavenderblush;
 }
 h2 {
-    font-size: 20px;
-    margin: 0px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-}
-button {
-    background-color: coral;
-    border-radius: 6px;
-    color: azure;
-    cursor: grab;
-    font-size: 1.5em;
-    letter-spacing: normal;
-    line-height: 14px;
-    max-width: 250px;
-    padding: 12px 28px;
+    margin-bottom: 30px;
     text-align: center;
-    transition-duration: 1.5s;
-    transition-property: background-color;
-    transition-timing-function: ease-in;
-    margin-left: 27%;
-    margin-right: 20%;
+    font-size: 25px;
+    color: darkslategray;
 }
+
 .generator {
     margin-top: 8px;
     margin-bottom: 10px;
 }
 label {
     color: crimson;
-    text-align: center;
+}
+input {
+    padding: 20px;
+    user-select: none;
+    height: 50px;
+    width: 400px;
+    border-radius: 6px;
+    border: 2px solid lightcoral;
+    font-size: 20px;
 }
 .box {
     display: block;
