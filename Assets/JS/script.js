@@ -1,16 +1,12 @@
-var generateBtn = document.querySelector("#generate");
+var generateBtn = document.querySelector("#Generate");
 
-function generatePassword(){
-    var passwordLength = prompt("How long would you like your password? 6-10 characters?");
-    if(passwordLength < 8 || passwordLength > 10){
+generateBtn.addEventListener("click", function genPassword(){
+    var chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?";
+    var passwordLength = 8;
+    var password = "";
 
-}
-function writePassword() {
-    var password = generatePassword();
-    var passwordText = document.querySelector("#button1");
-
-    passwordText.value = password;
-}
-
-generateBtn.addEventlistener("click", writePassword);
-}
+    for (var i = 0; i <= passwordLength; i++){
+        var randomNumber = Math.floor(Math.random() * chars.length);
+        password += chars.substring(randomNumber, randomNumber +1);}{
+            return password;
+    
