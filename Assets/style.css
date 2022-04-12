@@ -10,7 +10,7 @@ h2 {
     font-size: 25px;
     color: teal;
 }
-#button {
+#generate {
     font-size: 15px;
     margin-top: 40px;
     margin-right: 35px;
@@ -27,7 +27,7 @@ h2 {
     cursor: grab;
     border-radius: 45px;
 }
-#button:hover {
+#generate:hover {
     color:teal;
 }
 .generator {

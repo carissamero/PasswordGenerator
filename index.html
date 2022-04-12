@@ -2,24 +2,23 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8"/>
-        <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
+        <meta name="viewport" content="device-width" initial-scale="1.0"/>
         <meta http-equiv="X-UA-Compatible" content="ie-edge"/>
         <link rel="stylesheet" href="./style.css"/>
-        <script src="./Assets/JS/script.js"></script>
         <title>Password Generator</title>
     </head>
     <body>
-        <div class="generator">
+        <div class="Generate">
             <div class="box">
             <h2>Password Generator</h2>
             <form method="post">
-            <input type="text" name="" placeholder="Create Password" readonly>
+            <input type="text" placeholder="Create Password" id = "password" readonly>
             <table>
-                <th><div id="button" class="button1" onclick="genPassword()">Generate</div></th>
-                <th><a id="button" class="button2" onclick="copyPassword()">Copy</a></th>
+                <th><div id="generate" class="btn1">Generate</div></th>
             </table>
             </div>
             </form>
         </div>
     </body>
+    <script type= "text/javascript" script src="./JS/script.js"></script>
 </html>
